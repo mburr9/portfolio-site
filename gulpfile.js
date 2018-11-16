@@ -3,25 +3,49 @@ const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
 
+const paths = {
+  styles: {
+    src: "sass/**/*.sass",
+    dest: "css"
+  },
+  html: {
+    src: "./index.html"
+  }
+};
 
-gulp.task('default', ['styles'] function() {
-  gulp.watch('sass/**/*.scss', ['styles']);
-
-  browserSync.init({
-  server: "./"
-  });
-});
-
-gulp.task("styles", function() {
-  gulp
-    .src("sass/**/*.scss")
-    .pipe(sass()
-    .on("error", sass.logError))
-    .pipe(
+function style() {
+  return (
+    gulp
+      .src(paths.styles.src)
+      .pipe(sass())
+      .on("error", sass.logError)
+      .pipe(
       autoprefixer({
         browsers: ["last 2 versions"]
       })
-    )
-    .pipe(gulp.dest("./css"))
-    .pipe(browserSync.stream());
-});
+      )
+      .pipe(gulp.dest(paths.styles.dest))
+      .pipe(browserSync.stream())
+  );
+}
+
+function reload(done) {
+  browserSync.reload();
+  done();
+}
+
+function watch() {
+  browserSync.init({
+    server: {
+      baseDir: "./"
+    },
+    online: true
+  });
+
+  gulp.watch(paths.styles.src, style);
+
+  gulp.watch(paths.html.src, reload);
+}
+
+exports.watch = watch;
+exports.style = style;
