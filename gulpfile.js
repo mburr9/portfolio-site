@@ -1,16 +1,16 @@
-const gulp = require ('gulp');
+const gulp = require('gulp');
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
 
 const paths = {
   styles: {
-    src: "sass/**/*.sass",
-    dest: "css"
+    src: 'sass/**/*.sass',
+    dest: 'css',
   },
   html: {
-    src: "./index.html"
-  }
+    src: './index.html',
+  },
 };
 
 function style() {
@@ -37,9 +37,8 @@ function reload(done) {
 function watch() {
   browserSync.init({
     server: {
-      baseDir: "./"
+      baseDir: './',
     },
-    online: true
   });
 
   gulp.watch(paths.styles.src, style);
