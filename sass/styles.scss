@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .hero-header {
@@ -35,4 +36,13 @@ body {
   font-size: 3em;
   color: black;
   margin-right: 5px;
+}
+
+.hero-name {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.hero-desc {
+  font-size: 1.3em;
 }
