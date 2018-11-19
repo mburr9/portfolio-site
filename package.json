@@ -17,11 +17,13 @@
   },
   "homepage": "https://github.com/mburr9/portfolio-site#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "eslint": "^5.9.0",
+    "eslint-config-google": "^0.11.0",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0"
   },
   "dependencies": {
-    "browser-sync": "^2.26.3",
     "gulp-sass": "^4.0.2"
   }
 }
