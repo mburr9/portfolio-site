@@ -5,7 +5,7 @@ const browserSync = require('browser-sync').create();
 
 const paths = {
   styles: {
-    src: 'sass/**/*.sass',
+    src: 'sass/**/*.scss',
     dest: 'css',
   },
   html: {
@@ -21,7 +21,7 @@ function style() {
       .on("error", sass.logError)
       .pipe(
       autoprefixer({
-        browsers: ["last 2 versions"]
+        browsers: ['last 2 versions']
       })
       )
       .pipe(gulp.dest(paths.styles.dest))
