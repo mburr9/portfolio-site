@@ -27,7 +27,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 65vh;
 }
 
 #logo img {
@@ -48,4 +48,8 @@ body {
 
 .hero-desc {
   font-size: 1em;
+}
+
+#profile-pic {
+  width: 100px;
 }
