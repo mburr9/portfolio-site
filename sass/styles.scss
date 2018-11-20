@@ -5,10 +5,12 @@ body {
 
 .hero {
   height: 100vh;
-  background-image: url(/images/programming2.png);
-  background-position: center;
+  width: 100vw;
+  background-image: url(/images/programmingm.png);
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
 }
@@ -17,7 +19,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 100px;
+  // margin-bottom: 100px;
 }
 
 .hero-header {
@@ -25,6 +27,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 70vh;
 }
 
 #logo img {
