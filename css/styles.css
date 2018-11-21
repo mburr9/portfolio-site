@@ -1,13 +1,20 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0; }
+
 body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif; }
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url(/images/programmingm.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
 
 .hero {
   height: 100vh;
-  background-image: url(/images/programming.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,4 +47,34 @@ body {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  height: 65vh; }
+
+#logo img {
+  width: 53px; }
+
+#hamburger {
+  text-decoration: none;
+  font-size: 3.5em;
+  color: #5795ff;
+  margin-right: 5px; }
+
+.hero-name {
+  font-size: 1.75em;
+  margin-bottom: 0;
+  margin-top: 20px; }
+
+.hero-desc {
+  font-size: 1em;
+  margin: 16px 0; }
+
+#profile-pic {
+  width: 100px;
+  margin-top: 30px; }
+
+#about-link {
+  color: #5795ff;
+  margin-top: 30px; }
+
+.next {
+  height: 100vh; }
