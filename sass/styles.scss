@@ -73,6 +73,23 @@ body {
   color: $primary-color;
   margin-top: 30px;
 }
-.next {
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100vh;
+}
+
+.about-name {
+  color: $primary-color;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 55px;
+  margin-top: 20px;
+}
+
+.about-desc {
+  width: 168px;
+  font-size: 1em;
+  margin: 16px 0;
 }
