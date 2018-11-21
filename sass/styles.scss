@@ -1,3 +1,5 @@
+$primary-color: #5795ff;
+
 body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
@@ -37,7 +39,7 @@ body {
 #hamburger {
   text-decoration: none;
   font-size: 3.5em;
-  color: #5795ff;
+  color: $primary-color;
   margin-right: 5px;
 }
 
