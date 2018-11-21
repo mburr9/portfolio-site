@@ -5,14 +5,14 @@
 
 body {
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-image: url(/images/programmingm.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
 
-.hero {
+#hero {
   height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -113,6 +113,7 @@ nav a:hover {
 
 .about-desc {
   width: 45vw;
+  text-align: center;
   font-size: 1em;
   margin: 16px 0; }
 
@@ -133,21 +134,26 @@ nav a:hover {
   color: #5795ff;
   text-align: center;
   font-size: 2em;
-  margin-bottom: 85px;
+  height: 21vh;
   margin-top: 20px; }
 
 .all-projects {
-  height: 260px;
+  height: 48vh;
   overflow: scroll; }
 
 .single-project {
-  width: 175px;
+  width: 50vw;
   text-align: center;
   margin-bottom: 15px;
   margin-top: 10px; }
 
 .project-image {
-  width: 100px; }
+  width: 60%; }
 
 .scroll {
-  color: #5795ff; }
+  color: #5795ff;
+  margin-top: 20px; }
+
+.project-link {
+  text-decoration: none;
+  color: black; }
