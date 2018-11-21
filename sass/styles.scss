@@ -1,18 +1,28 @@
 $primary-color: #5795ff;
 
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
-}
-
-.hero {
-  height: 100vh;
-  width: 100vw;
   background-image: url(/images/programmingm.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  // background-image: url(/images/programmingm.png);
+  // background-position: center center;
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // background-attachment: fixed;
   display: flex;
   flex-direction: column;
 }
@@ -46,12 +56,23 @@ body {
 .hero-name {
   font-size: 1.75em;
   margin-bottom: 0;
+  margin-top: 20px;
 }
 
 .hero-desc {
   font-size: 1em;
+  margin: 16px 0;
 }
 
 #profile-pic {
   width: 100px;
+  margin-top: 30px;
+}
+
+#about-link {
+  color: $primary-color;
+  margin-top: 30px;
+}
+.next {
+  height: 100vh;
 }
