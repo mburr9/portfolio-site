@@ -15,6 +15,12 @@ body {
   background-attachment: fixed;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 #hero {
   height: 100vh;
   width: 100vw;
@@ -46,12 +52,15 @@ body {
   width: 53px;
 }
 nav {
+  position: absolute;
+  // left: -30px;
+  left: -130px;
+  top: 60px;
   ul {
     list-style: none;
   }
 
   li {
-    display: inline-block;
     margin-right: 10px;
   }
 
