@@ -48,10 +48,25 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 65vh; }
+  height: 70vh; }
 
 #logo img {
   width: 53px; }
+
+nav ul {
+  list-style: none; }
+
+nav li {
+  display: inline-block;
+  margin-right: 10px; }
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1em; }
+
+nav a:hover {
+  text-decoration: underline; }
 
 #hamburger {
   text-decoration: none;
@@ -76,5 +91,63 @@ body {
   color: #5795ff;
   margin-top: 30px; }
 
-.next {
+#about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh; }
+
+.about-name {
+  color: #5795ff;
+  text-align: center;
+  font-size: 1.5em;
+  height: 20vh;
+  margin-top: 20px; }
+
+.about-desc {
+  width: 45vw;
+  font-size: 1em;
+  margin: 16px 0; }
+
+#work {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh; }
+
+#featured-title {
+  color: #5795ff;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 85px;
+  margin-top: 20px; }
+
+.all-projects {
+  height: 260px;
+  overflow: scroll; }
+
+.single-project {
+  width: 175px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 10px; }
+
+.project-image {
+  width: 100px; }
+
+.scroll {
+  color: #5795ff; }
