@@ -39,13 +39,32 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 65vh;
+  height: 70vh;
 }
 
 #logo img {
   width: 53px;
 }
+nav {
+  ul {
+    list-style: none;
+  }
 
+  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
 #hamburger {
   text-decoration: none;
   font-size: 3.5em;
