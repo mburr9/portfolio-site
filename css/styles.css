@@ -61,7 +61,11 @@ body {
 nav {
   position: absolute;
   left: -130px;
-  top: 60px; }
+  top: 60px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s; }
   nav ul {
     list-style: none; }
   nav li {
@@ -72,6 +76,10 @@ nav {
     font-size: 1.1em; }
   nav a:hover {
     text-decoration: underline; }
+
+nav.visible {
+  -webkit-transform: translate(100px, 0);
+          transform: translate(100px, 0); }
 
 #hamburger {
   text-decoration: none;
