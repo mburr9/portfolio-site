@@ -127,13 +127,14 @@ nav.visible {
   text-align: center;
   font-size: 1.5em;
   height: 20vh;
+  width: 70%;
   margin-top: 20px; }
 
 .about-desc {
   width: 45vw;
   text-align: center;
   font-size: 1em;
-  margin: 16px 0; }
+  margin: 12px 0 0; }
 
 #work {
   display: -webkit-box;
