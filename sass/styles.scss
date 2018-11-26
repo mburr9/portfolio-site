@@ -207,29 +207,30 @@ nav.visible {
 
 .work-inner {
   @extend %border-inner;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.all-projects {
-  height: 48vh;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
   overflow: scroll;
 }
+.all-projects {
+  // height: 48vh;
+
+}
 .single-project {
-  width: 50vw;
+  // width: 50vw;
   text-align: center;
   margin-bottom: 15px;
   margin-top: 10px;
 }
 
 .project-image {
-  width: 60%;
+  width: 90%;
 }
 
 .scroll {
   color: $primary-color;
-  margin-top: 20px;
+  // margin-top: 20px;
 }
 
 .project-link {
