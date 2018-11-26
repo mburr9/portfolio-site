@@ -1,10 +1,10 @@
-.hero-outer, .about-me-outer, .work-outer, .skills-outer {
+.hero-outer, .about-me-outer, .work-outer, .skills-outer, .contact-outer {
   width: 70%;
   margin: 0 auto;
   border: 10px solid #5795ff;
   border-radius: 8px; }
 
-.hero-inner, .about-me-inner, .work-inner, .skills-inner {
+.hero-inner, .about-me-inner, .work-inner, .skills-inner, .contact-inner {
   height: 90%;
   width: 90%;
   border: 4px solid #5795ff;
@@ -295,6 +295,57 @@ nav.visible {
           align-items: center; }
 
 #skills-title {
+  color: #5795ff;
+  text-align: center;
+  font-size: 2em;
+  height: 15vh;
+  margin-top: 20px; }
+
+#contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh; }
+
+.contact-outer {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.contact-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+#contact-title {
   color: #5795ff;
   text-align: center;
   font-size: 2em;

@@ -271,3 +271,36 @@ nav.visible {
   height: 15vh;
   margin-top: 20px;
 }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-outer {
+  @extend %border-outer;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-inner {
+  @extend %border-inner;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-title {
+  color: $primary-color;
+  text-align: center;
+  font-size: 2em;
+  // margin-bottom: 85px;
+  height: 15vh;
+  margin-top: 20px;
+}
