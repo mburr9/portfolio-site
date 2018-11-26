@@ -1,12 +1,23 @@
+.hero-outer, .about-me-outer, .work-outer {
+  width: 70%;
+  margin: 0 auto;
+  border: 10px solid #5795ff;
+  border-radius: 8px; }
+
+.hero-inner, .about-me-inner, .work-inner {
+  height: 90%;
+  width: 90%;
+  border: 4px solid #5795ff; }
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0; }
 
 body {
+  background-color: #f2f2f2;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/images/programmingm.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,6 +29,7 @@ body {
   width: 100%; }
 
 #hero {
+  padding-top: 15vh;
   height: 100vh;
   width: 100vw;
   display: -webkit-box;
@@ -39,7 +51,7 @@ body {
       -ms-flex-align: center;
           align-items: center; }
 
-.hero-header {
+.hero-outer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,6 +66,21 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 70vh; }
+
+.hero-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 #logo img {
   width: 53px; }
@@ -122,11 +149,42 @@ nav.visible {
           align-items: center;
   height: 100vh; }
 
+.about-me-outer {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.about-me-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
 .about-name {
   color: #5795ff;
   text-align: center;
   font-size: 1.5em;
-  height: 20vh;
+  height: 15vh;
   width: 70%;
   margin-top: 20px; }
 
@@ -153,8 +211,39 @@ nav.visible {
   color: #5795ff;
   text-align: center;
   font-size: 2em;
-  height: 21vh;
+  height: 15vh;
   margin-top: 20px; }
+
+.work-outer {
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.work-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .all-projects {
   height: 48vh;
