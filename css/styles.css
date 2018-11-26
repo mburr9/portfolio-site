@@ -60,19 +60,24 @@ body {
 
 nav {
   position: absolute;
-  left: -130px;
+  left: -100px;
   top: 60px;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
   transition: transform 1s;
-  transition: transform 1s, -webkit-transform 1s; }
+  transition: transform 1s, -webkit-transform 1s;
+  background-color: #5795ff;
+  border-radius: 0 10px 10px 0; }
   nav ul {
-    list-style: none; }
+    list-style: none;
+    padding: 10px 0 0;
+    margin-left: 5px;
+    margin-right: 5px; }
   nav li {
-    margin-right: 10px; }
+    margin-bottom: 10px; }
   nav a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.1em; }
   nav a:hover {
     text-decoration: underline; }
