@@ -1,0 +1,20 @@
+@media screen and (min-width: 550px) {
+  #hamburger {
+    display: none;
+    margin: 0; }
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  nav {
+    position: static;
+    width: 40%;
+    background: none; }
+    nav a {
+      color: darkgrey; }
+  nav.visible {
+    -webkit-transform: none;
+            transform: none; } }
