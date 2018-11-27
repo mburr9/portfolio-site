@@ -81,14 +81,17 @@ body {
 nav {
   position: absolute;
   // left: -30px;
-  left: -100px;
+  left: -100vw;
   top: 60px;
+  width: 100vw;
   transition: transform 1s;
   background-color: $primary-color;
-  border-radius: 0 10px 10px 0;
+  // border-radius: 0 10px 10px 0;
 
   ul {
     list-style: none;
+    display: flex;
+    justify-content: space-between;
     padding: 10px 0 0;
     margin-left: 5px;
     margin-right: 5px;
@@ -110,7 +113,7 @@ nav {
 }
 
 nav.visible {
-  transform: translate(100px, 0);
+  transform: translate(100vw, 0);
 }
 
 #hamburger {
