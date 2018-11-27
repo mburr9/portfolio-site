@@ -2,7 +2,8 @@
   width: 70%;
   margin: 0 auto;
   border: 10px solid #5795ff;
-  border-radius: 8px; }
+  border-radius: 8px;
+  height: 75vh; }
 
 .hero-inner, .about-me-inner, .work-inner, .skills-inner, .contact-inner {
   height: 90%;
@@ -65,8 +66,7 @@ body {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
-  height: 70vh; }
+          align-items: center; }
 
 .hero-inner {
   display: -webkit-box;
@@ -89,7 +89,7 @@ body {
 nav {
   position: absolute;
   left: -100vw;
-  top: 60px;
+  top: 63px;
   width: 100vw;
   -webkit-transition: -webkit-transform 1s;
   transition: -webkit-transform 1s;
@@ -108,7 +108,7 @@ nav {
     margin-left: 5px;
     margin-right: 5px; }
   nav li {
-    margin-bottom: 10px; }
+    margin-bottom: 5px; }
   nav a {
     text-decoration: none;
     color: white;
@@ -122,6 +122,7 @@ nav.visible {
 
 #hamburger {
   text-decoration: none;
+  height: 76px;
   font-size: 3.5em;
   color: #5795ff;
   margin-right: 5px; }
@@ -157,7 +158,6 @@ nav.visible {
   height: 100vh; }
 
 .about-me-outer {
-  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -222,7 +222,6 @@ nav.visible {
   margin-top: 20px; }
 
 .work-outer {
-  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,7 +269,6 @@ nav.visible {
   height: 100vh; }
 
 .skills-outer {
-  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -339,7 +337,6 @@ nav.visible {
   height: 100vh; }
 
 .contact-outer {
-  height: 70vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

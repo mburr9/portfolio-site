@@ -5,6 +5,7 @@ $primary-color: #5795ff;
   margin: 0 auto;
   border: 10px solid $primary-color;
   border-radius: 8px;
+  height: 75vh;
 }
 
 %border-inner {
@@ -62,7 +63,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+
 }
 
 .hero-inner {
@@ -82,7 +83,7 @@ nav {
   position: absolute;
   // left: -30px;
   left: -100vw;
-  top: 60px;
+  top: 63px;
   width: 100vw;
   transition: transform 1s;
   background-color: $primary-color;
@@ -98,7 +99,7 @@ nav {
   }
 
   li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   a {
@@ -118,6 +119,7 @@ nav.visible {
 
 #hamburger {
   text-decoration: none;
+  height: 76px;
   font-size: 3.5em;
   color: $primary-color;
   margin-right: 5px;
@@ -153,7 +155,6 @@ nav.visible {
 
 .about-me-outer {
   @extend %border-outer;
-  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -202,7 +203,6 @@ nav.visible {
 
 .work-outer {
   @extend %border-outer;
-  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -251,7 +251,6 @@ nav.visible {
 
 .skills-outer {
   @extend %border-outer;
-  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -334,7 +333,6 @@ nav.visible {
 
 .contact-outer {
   @extend %border-outer;
-  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
