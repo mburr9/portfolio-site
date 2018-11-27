@@ -17,4 +17,6 @@
       color: darkgrey; }
   nav.visible {
     -webkit-transform: none;
-            transform: none; } }
+            transform: none; }
+  #logo img {
+    width: 73px; } }
