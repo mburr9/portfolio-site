@@ -252,7 +252,8 @@ nav.visible {
 
 .project-link {
   text-decoration: none;
-  color: black; }
+  color: black;
+  font-size: 1em; }
 
 #skills {
   display: -webkit-box;

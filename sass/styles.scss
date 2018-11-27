@@ -1,4 +1,11 @@
 $primary-color: #5795ff;
+$h1-size: 1.75em;
+$hero-desc-size: 1em;
+$about-name-size: 1.5em;
+$h2-size: 2em;
+$desc-size: 1em;
+$h3-size: 1.5em;
+$list-size: 1.1em;
 
 %border-outer {
   width: 70%;
@@ -125,13 +132,13 @@ nav.visible {
 }
 
 .hero-name {
-  font-size: 1.75em;
+  font-size: $h1-size;
   margin-bottom: 0;
   margin-top: 20px;
 }
 
 .hero-desc {
-  font-size: 1em;
+  font-size: $hero-desc-size;
   margin: 16px 0;
 }
 
@@ -170,7 +177,7 @@ nav.visible {
 .about-name {
   color: $primary-color;
   text-align: center;
-  font-size: 1.5em;
+  font-size: $about-name-size;
   height: 15vh;
   width: 70%;
   margin-top: 20px;
@@ -179,7 +186,7 @@ nav.visible {
 .about-desc {
   width: 45vw;
   text-align: center;
-  font-size: 1em;
+  font-size: $desc-size;
   margin: 12px 0 0;
 }
 
@@ -193,7 +200,7 @@ nav.visible {
 #featured-title {
   color: $primary-color;
   text-align: center;
-  font-size: 2em;
+  font-size: $h2-size;
   // margin-bottom: 85px;
   height: 15vh;
   margin-top: 20px;
@@ -238,6 +245,7 @@ nav.visible {
 .project-link {
   text-decoration: none;
   color: black;
+  font-size: $desc-size;
 }
 
 #skills {
@@ -267,7 +275,7 @@ nav.visible {
 #skills-title {
   color: $primary-color;
   text-align: center;
-  font-size: 2em;
+  font-size: $h2-size;
   // margin-bottom: 85px;
   height: 15vh;
   margin-top: 20px;
@@ -277,7 +285,7 @@ nav.visible {
   height: 100%;
 
   h3 {
-    font-size: 1.5em;
+    font-size: $h3-size;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -288,7 +296,7 @@ nav.visible {
 
   li {
     margin-bottom: 5px;
-    font-size: 1.1em;
+    font-size: $list-size;
   }
 
 }
@@ -306,7 +314,7 @@ nav.visible {
   height: 100%;
 
   h3 {
-    font-size: 1.5em;
+    font-size: $h3-size;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -317,7 +325,7 @@ nav.visible {
 
   li {
     margin-bottom: 5px;
-    font-size: 1.1em;
+    font-size: $list-size;
   }
 
 }
@@ -345,7 +353,7 @@ nav.visible {
   align-items: center;
 
   h3 {
-    font-size: 1.5em;
+    font-size: $h3-size;
     margin:  15px 0;
   }
 }
@@ -353,7 +361,7 @@ nav.visible {
 #contact-title {
   color: $primary-color;
   text-align: center;
-  font-size: 2em;
+  font-size: $h2-size;
   // margin-bottom: 85px;
   height: 15vh;
   margin-top: 20px;
