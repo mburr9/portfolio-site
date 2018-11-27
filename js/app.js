@@ -1,13 +1,17 @@
 const hamburger = document.getElementById('hamburger');
 const hamburgerSymbol = hamburger.textContent;
-let i = 0;
+const nav = document.getElementById('nav');
+
 hamburger.addEventListener('click', function() {
-  if (i%2 === 0) {
+  if (hamburger.textContent === hamburgerSymbol) {
     hamburger.textContent = 'x';
   } else {
     hamburger.textContent = hamburgerSymbol;
   }
-  i += 1;
-  const nav = document.getElementById('nav');
   nav.classList.toggle('visible');
+});
+
+nav.addEventListener('click', function() {
+  nav.classList.toggle('visible');
+  hamburger.textContent = hamburgerSymbol;
 });
