@@ -257,10 +257,11 @@ nav.visible {
 
 .skills-inner {
   @extend %border-inner;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  overflow: scroll;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
 }
 
 #skills-title {
@@ -270,6 +271,55 @@ nav.visible {
   // margin-bottom: 85px;
   height: 15vh;
   margin-top: 20px;
+}
+
+#proficient-skills {
+  height: 100%;
+
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  ul {
+    margin-bottom: 10px;
+  }
+
+  li {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+  }
+
+}
+
+.more-link {
+  text-align: center;
+
+  p {
+    color: $primary-color;
+    font-size: 1.2em;
+  }
+}
+
+#beginner-skills {
+  height: 100%;
+
+  h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  ul {
+    margin-bottom: 10px;
+  }
+
+  li {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+  }
+
 }
 
 #contact {
@@ -292,8 +342,13 @@ nav.visible {
   @extend %border-inner;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+
+  h3 {
+    font-size: 1.5em;
+    margin:  15px 0;
+  }
 }
 
 #contact-title {
@@ -303,4 +358,19 @@ nav.visible {
   // margin-bottom: 85px;
   height: 15vh;
   margin-top: 20px;
+}
+
+.email {
+  text-align: center;
+  height: 50%
+}
+
+.social {
+  text-align: center;
+
+}
+
+#github {
+  width: 66px;
+  margin-right: 10px;
 }

@@ -280,19 +280,7 @@ nav.visible {
           align-items: center; }
 
 .skills-inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  overflow: scroll; }
 
 #skills-title {
   color: #5795ff;
@@ -300,6 +288,36 @@ nav.visible {
   font-size: 2em;
   height: 15vh;
   margin-top: 20px; }
+
+#proficient-skills {
+  height: 100%; }
+  #proficient-skills h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center; }
+  #proficient-skills ul {
+    margin-bottom: 10px; }
+  #proficient-skills li {
+    margin-bottom: 5px;
+    font-size: 1.1em; }
+
+.more-link {
+  text-align: center; }
+  .more-link p {
+    color: #5795ff;
+    font-size: 1.2em; }
+
+#beginner-skills {
+  height: 100%; }
+  #beginner-skills h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center; }
+  #beginner-skills ul {
+    margin-bottom: 10px; }
+  #beginner-skills li {
+    margin-bottom: 5px;
+    font-size: 1.1em; }
 
 #contact {
   display: -webkit-box;
@@ -338,12 +356,15 @@ nav.visible {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  .contact-inner h3 {
+    font-size: 1.5em;
+    margin: 15px 0; }
 
 #contact-title {
   color: #5795ff;
@@ -351,3 +372,14 @@ nav.visible {
   font-size: 2em;
   height: 15vh;
   margin-top: 20px; }
+
+.email {
+  text-align: center;
+  height: 50%; }
+
+.social {
+  text-align: center; }
+
+#github {
+  width: 66px;
+  margin-right: 10px; }
