@@ -1,10 +1,11 @@
 const hamburger = document.getElementById('hamburger');
 const hamburgerSymbol = hamburger.textContent;
+const closeSymbol = '\u00D7';
 const nav = document.getElementById('nav');
 
 hamburger.addEventListener('click', function() {
   if (hamburger.textContent === hamburgerSymbol) {
-    hamburger.textContent = 'x';
+    hamburger.textContent = closeSymbol;
   } else {
     hamburger.textContent = hamburgerSymbol;
   }
