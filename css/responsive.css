@@ -1,7 +1,13 @@
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 600px) {
   .pole {
     border: 5px solid #5795ff;
-    width: 10%;
+    width: 5px;
+    height: 5vh;
+    margin: 0 auto;
+    background-color: #5795ff; }
+  .stand {
+    border: 5px solid #5795ff;
+    width: 25vw;
     margin: 0 auto; } }
 
 @media screen and (min-height: 900px) {
