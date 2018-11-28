@@ -149,6 +149,7 @@ nav.visible {
 #about-link {
   color: $primary-color;
   margin-top: 30px;
+  font-size: $hero-desc-size;
 }
 
 #about-me {
@@ -200,10 +201,12 @@ nav.visible {
 #featured-title {
   color: $primary-color;
   text-align: center;
-  font-size: $h2-size;
-  // margin-bottom: 85px;
   height: 15vh;
   margin-top: 20px;
+}
+
+.title {
+    font-size: $h2-size;
 }
 
 .work-outer {
@@ -275,8 +278,6 @@ nav.visible {
 #skills-title {
   color: $primary-color;
   text-align: center;
-  font-size: $h2-size;
-  // margin-bottom: 85px;
   height: 15vh;
   margin-top: 20px;
 }
@@ -361,8 +362,6 @@ nav.visible {
 #contact-title {
   color: $primary-color;
   text-align: center;
-  font-size: $h2-size;
-  // margin-bottom: 85px;
   height: 15vh;
   margin-top: 20px;
 }

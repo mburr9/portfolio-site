@@ -141,7 +141,8 @@ nav.visible {
 
 #about-link {
   color: #5795ff;
-  margin-top: 30px; }
+  margin-top: 30px;
+  font-size: 1em; }
 
 #about-me {
   display: -webkit-box;
@@ -216,9 +217,11 @@ nav.visible {
 #featured-title {
   color: #5795ff;
   text-align: center;
-  font-size: 2em;
   height: 15vh;
   margin-top: 20px; }
+
+.title {
+  font-size: 2em; }
 
 .work-outer {
   display: -webkit-box;
@@ -289,7 +292,6 @@ nav.visible {
 #skills-title {
   color: #5795ff;
   text-align: center;
-  font-size: 2em;
   height: 15vh;
   margin-top: 20px; }
 
@@ -372,7 +374,6 @@ nav.visible {
 #contact-title {
   color: #5795ff;
   text-align: center;
-  font-size: 2em;
   height: 15vh;
   margin-top: 20px; }
 
