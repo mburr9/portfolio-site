@@ -282,11 +282,14 @@ nav.visible {
   margin-top: 20px;
 }
 
+h3 {
+  font-size: $h3-size;
+}
+
 #proficient-skills {
   height: 100%;
 
   h3 {
-    font-size: $h3-size;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -315,7 +318,6 @@ nav.visible {
   height: 100%;
 
   h3 {
-    font-size: $h3-size;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -354,7 +356,6 @@ nav.visible {
   align-items: center;
 
   h3 {
-    font-size: $h3-size;
     margin:  15px 0;
   }
 }

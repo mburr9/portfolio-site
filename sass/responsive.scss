@@ -1,8 +1,18 @@
+$primary-color: #5795ff;
+$h1-size: 1.75em;
+$hero-desc-size: 1em;
+$about-name-size: 1.5em;
+$h2-size: 2em;
+$desc-size: 1em;
+$h3-size: 1.5em;
+$list-size: 1.1em;
+
 @media screen and (min-width: 375px) {
 
 }
 
 @media screen and (min-width: 550px) {
+
   #hamburger {
     display: none;
     margin: 0;
@@ -15,12 +25,13 @@
 
   nav {
     position: static;
-    width: 40%;
+    width: 55%;
     background: none;
 
 
     a {
       color: darkgrey;
+      font-size: 1.5em;
     }
   }
 
@@ -30,5 +41,65 @@
 
   #logo img {
     width: 73px;
+  }
+
+  .hero-name {
+    font-size: $h1-size * 1.5;
+  }
+
+  .hero-desc {
+    font-size: $hero-desc-size * 1.5;
+  }
+
+  #about-link {
+    font-size: $hero-desc-size * 1.5;
+  }
+
+  .about-name {
+    font-size: $about-name-size * 1.5;
+  }
+
+  .about-desc {
+    font-size: $desc-size * 1.5;
+  }
+
+  .title {
+    font-size: $h2-size * 1.5;
+  }
+
+  .project-link {
+    font-size: $desc-size * 1.5;
+  }
+
+  .scroll {
+    font-size: $desc-size * 1.5;
+  }
+
+  h3 {
+    font-size: $h3-size * 1.5;
+  }
+
+  #beginner-skills {
+    li {
+      font-size: $list-size * 1.5;
+    }
+  }
+
+  #proficient-skills {
+    li {
+      font-size: $list-size * 1.5;
+    }
+  }
+
+  .more-link {
+    p {
+      font-size: 1.2em * 1.5;
+    }
+  }
+
+  .email {
+    p {
+      font-size: $desc-size * 1.5;
+    }
   }
 }

@@ -11,12 +11,39 @@
             justify-content: space-between; }
   nav {
     position: static;
-    width: 40%;
+    width: 55%;
     background: none; }
     nav a {
-      color: darkgrey; }
+      color: darkgrey;
+      font-size: 1.5em; }
   nav.visible {
     -webkit-transform: none;
             transform: none; }
   #logo img {
-    width: 73px; } }
+    width: 73px; }
+  .hero-name {
+    font-size: 2.625em; }
+  .hero-desc {
+    font-size: 1.5em; }
+  #about-link {
+    font-size: 1.5em; }
+  .about-name {
+    font-size: 2.25em; }
+  .about-desc {
+    font-size: 1.5em; }
+  .title {
+    font-size: 3em; }
+  .project-link {
+    font-size: 1.5em; }
+  .scroll {
+    font-size: 1.5em; }
+  h3 {
+    font-size: 2.25em; }
+  #beginner-skills li {
+    font-size: 1.65em; }
+  #proficient-skills li {
+    font-size: 1.65em; }
+  .more-link p {
+    font-size: 1.8em; }
+  .email p {
+    font-size: 1.5em; } }

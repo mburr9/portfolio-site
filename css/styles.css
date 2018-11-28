@@ -295,10 +295,12 @@ nav.visible {
   height: 15vh;
   margin-top: 20px; }
 
+h3 {
+  font-size: 1.5em; }
+
 #proficient-skills {
   height: 100%; }
   #proficient-skills h3 {
-    font-size: 1.5em;
     margin-bottom: 10px;
     text-align: center; }
   #proficient-skills ul {
@@ -316,7 +318,6 @@ nav.visible {
 #beginner-skills {
   height: 100%; }
   #beginner-skills h3 {
-    font-size: 1.5em;
     margin-bottom: 10px;
     text-align: center; }
   #beginner-skills ul {
@@ -368,7 +369,6 @@ nav.visible {
       -ms-flex-align: center;
           align-items: center; }
   .contact-inner h3 {
-    font-size: 1.5em;
     margin: 15px 0; }
 
 #contact-title {
