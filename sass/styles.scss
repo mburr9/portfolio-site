@@ -7,12 +7,17 @@ $desc-size: 1em;
 $h3-size: 1.5em;
 $list-size: 1.1em;
 
+
 %border-outer {
   width: 70%;
   margin: 0 auto;
   border: 10px solid $primary-color;
   border-radius: 8px;
   height: 75vh;
+  @media screen and (min-width: 375px) {
+    width: 75vw;
+    height: 60vh;
+  }
 }
 
 %border-inner {
@@ -116,6 +121,7 @@ nav {
 
   a:hover {
     text-decoration: underline;
+    text-decoration-color: $primary-color;
   }
 }
 
@@ -188,7 +194,11 @@ nav.visible {
   width: 45vw;
   text-align: center;
   font-size: $desc-size;
-  margin: 12px 0 0;
+  margin: 9px 0 0;
+}
+
+#about-name-inner {
+  display: none;
 }
 
 #work {
@@ -219,9 +229,10 @@ nav.visible {
 
 .work-inner {
   @extend %border-inner;
-  // display: flex;
+  display: flex;
+  flex-wrap: wrap;
   // flex-direction: column;
-  // justify-content: center;
+  justify-content: space-between;
   // align-items: center;
   overflow: scroll;
 }
@@ -230,7 +241,7 @@ nav.visible {
 
 }
 .single-project {
-  // width: 50vw;
+  width: 49%;
   text-align: center;
   margin-bottom: 15px;
   margin-top: 10px;
@@ -307,11 +318,8 @@ h3 {
 
 .more-link {
   text-align: center;
-
-  p {
-    color: $primary-color;
-    font-size: 1.2em;
-  }
+  color: $primary-color;
+  font-size: 1.2em;
 }
 
 #beginner-skills {

@@ -1,4 +1,10 @@
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 375px) {
+  .pole {
+    border: 5px solid #5795ff;
+    width: 10%;
+    margin: 0 auto; } }
+
+@media screen and (min-height: 900px) {
   #hamburger {
     display: none;
     margin: 0; }
@@ -12,7 +18,8 @@
   nav {
     position: static;
     width: 55%;
-    background: none; }
+    background: none;
+    margin-top: 10px; }
     nav a {
       color: darkgrey;
       font-size: 1.5em; }
@@ -28,11 +35,16 @@
   #about-link {
     font-size: 1.5em; }
   .about-name {
-    font-size: 2.25em; }
+    visibility: hidden; }
+  #about-name-inner {
+    display: inline;
+    text-align: center;
+    margin: 12px 5px; }
   .about-desc {
     font-size: 1.5em; }
   .title {
-    font-size: 3em; }
+    font-size: 3em;
+    padding-top: 80px; }
   .project-link {
     font-size: 1.5em; }
   .scroll {
@@ -43,7 +55,7 @@
     font-size: 1.65em; }
   #proficient-skills li {
     font-size: 1.65em; }
-  .more-link p {
+  .more-link {
     font-size: 1.8em; }
   .email p {
     font-size: 1.5em; } }
