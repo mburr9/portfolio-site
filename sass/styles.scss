@@ -15,10 +15,12 @@ $list-size: 1.1em;
   border-radius: 8px;
   height: 75vh;
   max-width: 680px;
-  
-  @media screen and (min-width: 375px) {
-    width: 75vw;
-    height: 60vh;
+
+  @media screen and (min-width: 600px) {
+    width: 90vw;
+    height: 50vh;
+    border: 20px solid $primary-color;
+    background-color: lightgrey;
   }
 }
 
@@ -27,6 +29,10 @@ $list-size: 1.1em;
   width: 90%;
   border: 4px solid $primary-color;
   background-color: lightgrey;
+
+  @media screen and (min-width: 600px) {
+    border: none;
+  }
 }
 
 *, *:before, *:after {
