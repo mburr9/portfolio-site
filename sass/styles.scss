@@ -14,6 +14,8 @@ $list-size: 1.1em;
   border: 10px solid $primary-color;
   border-radius: 8px;
   height: 75vh;
+  max-width: 680px;
+  
   @media screen and (min-width: 375px) {
     width: 75vw;
     height: 60vh;
@@ -150,6 +152,7 @@ nav.visible {
 
 #profile-pic {
   width: 25vw;
+  max-width: 200px;
 }
 
 #about-link {

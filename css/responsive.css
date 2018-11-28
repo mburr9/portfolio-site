@@ -8,6 +8,7 @@
   .stand {
     border: 5px solid #5795ff;
     width: 25vw;
+    max-width: 226.66px;
     margin: 0 auto; } }
 
 @media screen and (min-height: 900px) {

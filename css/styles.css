@@ -3,7 +3,8 @@
   margin: 0 auto;
   border: 10px solid #5795ff;
   border-radius: 8px;
-  height: 75vh; }
+  height: 75vh;
+  max-width: 680px; }
   @media screen and (min-width: 375px) {
     .hero-outer, .about-me-outer, .work-outer, .skills-outer, .contact-outer {
       width: 75vw;
@@ -143,7 +144,8 @@ nav.visible {
   margin: 16px 0; }
 
 #profile-pic {
-  width: 25vw; }
+  width: 25vw;
+  max-width: 200px; }
 
 #about-link {
   color: #5795ff;
