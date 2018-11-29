@@ -4,7 +4,7 @@ $hero-desc-size: 1em;
 $about-name-size: 1.5em;
 $h2-size: 2em;
 $desc-size: 1em;
-$h3-size: 1.5em;
+$h3-size: 1.3em;
 $list-size: 1.1em;
 
 
@@ -200,6 +200,7 @@ nav.visible {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
 
 .about-name {
@@ -219,7 +220,10 @@ nav.visible {
 }
 
 #about-name-inner {
-  display: none;
+  display: inline;
+  text-align: center;
+  margin: 12px 5px;
+  // font-size: 1.3em;
 }
 
 .title-container {
@@ -380,7 +384,7 @@ h3 {
 
   li {
     margin-bottom: 5px;
-    font-size: $list-size;
+    font-size: $desc-size;
 
     @media screen and (min-width: 600px) and (max-height: 700px){
       font-size: 1em;
@@ -417,7 +421,7 @@ h3 {
 
   li {
     margin-bottom: 5px;
-    font-size: $list-size;
+    font-size: $desc-size;
 
     @media screen and (min-width: 600px) and (max-height: 700px){
       font-size: 1em;
