@@ -8,7 +8,7 @@
   @media screen and (min-width: 600px) and (max-height: 700px) {
     .hero-outer, .about-me-outer, .work-outer, .skills-outer, .contact-outer {
       width: 90vw;
-      height: 50vh;
+      height: 57vh;
       border: 20px solid #5795ff;
       background-color: lightgrey; } }
 
@@ -343,6 +343,12 @@ nav.visible {
 
 .skills-inner {
   overflow: scroll; }
+  @media screen and (min-width: 600px) and (max-height: 700px) {
+    .skills-inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      overflow: auto; } }
 
 #skills-title {
   color: #5795ff;
@@ -356,32 +362,51 @@ nav.visible {
 h3 {
   font-size: 1.5em; }
 
+@media screen and (min-width: 600px) and (max-height: 700px) {
+  .all-skills {
+    width: calc(50% - 5px); } }
+
 #proficient-skills {
   height: 100%; }
   #proficient-skills h3 {
     margin-bottom: 10px;
     text-align: center; }
+    @media screen and (min-width: 600px) and (max-height: 700px) {
+      #proficient-skills h3 {
+        text-align: left; } }
   #proficient-skills ul {
     margin-bottom: 10px; }
   #proficient-skills li {
     margin-bottom: 5px;
     font-size: 1.1em; }
+    @media screen and (min-width: 600px) and (max-height: 700px) {
+      #proficient-skills li {
+        font-size: 1em; } }
 
 .more-link {
   text-align: center;
   color: #5795ff;
   font-size: 1.2em; }
+  @media screen and (min-width: 600px) and (max-height: 700px) {
+    .more-link {
+      display: none; } }
 
 #beginner-skills {
   height: 100%; }
   #beginner-skills h3 {
     margin-bottom: 10px;
     text-align: center; }
+    @media screen and (min-width: 600px) and (max-height: 700px) {
+      #beginner-skills h3 {
+        text-align: left; } }
   #beginner-skills ul {
     margin-bottom: 10px; }
   #beginner-skills li {
     margin-bottom: 5px;
     font-size: 1.1em; }
+    @media screen and (min-width: 600px) and (max-height: 700px) {
+      #beginner-skills li {
+        font-size: 1em; } }
 
 #contact {
   display: -webkit-box;
