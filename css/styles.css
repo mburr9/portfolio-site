@@ -34,7 +34,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: scroll; }
+  overflow: auto; }
 
 .header {
   position: fixed;
@@ -276,13 +276,12 @@ nav.visible {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  overflow: scroll; }
+  overflow: auto; }
   @media screen and (min-width: 600px) and (max-height: 700px) {
     .work-inner {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center;
-      overflow: auto; } }
+              justify-content: center; } }
   .work-inner h3 {
     text-align: center;
     -ms-flex-preferred-size: 100%;
@@ -342,13 +341,12 @@ nav.visible {
           align-items: center; }
 
 .skills-inner {
-  overflow: scroll; }
+  overflow: auto; }
   @media screen and (min-width: 600px) and (max-height: 700px) {
     .skills-inner {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex;
-      overflow: auto; } }
+      display: flex; } }
 
 #skills-title {
   color: #5795ff;
