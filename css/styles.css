@@ -209,9 +209,7 @@ nav.visible {
   color: #5795ff;
   text-align: center;
   font-size: 2em;
-  height: 15vh;
-  width: 70%;
-  margin-top: 20px; }
+  width: 70%; }
 
 .about-desc {
   width: 90%;
@@ -222,6 +220,10 @@ nav.visible {
 #about-name-inner {
   text-align: center;
   margin: 12px 5px; }
+
+@media screen and (min-width: 400px) and (max-height: 700px) {
+  #about-scroll {
+    visibility: hidden; } }
 
 @media screen and (min-width: 600px) and (max-height: 700px) {
   .title-container {
@@ -242,15 +244,15 @@ nav.visible {
 
 #featured-title {
   color: #5795ff;
-  text-align: center;
-  height: 15vh;
-  margin-top: 20px; }
+  text-align: center; }
   @media screen and (min-width: 600px) and (max-height: 700px) {
     #featured-title {
       height: auto; } }
 
 .title {
-  font-size: 2em; }
+  font-size: 2em;
+  padding-top: 8vh;
+  padding-bottom: 2vh; }
 
 .work-outer {
   display: -webkit-box;
@@ -351,9 +353,7 @@ nav.visible {
 
 #skills-title {
   color: #5795ff;
-  text-align: center;
-  height: 15vh;
-  margin-top: 20px; }
+  text-align: center; }
   @media screen and (min-width: 600px) and (max-height: 700px) {
     #skills-title {
       height: auto; } }
@@ -464,9 +464,7 @@ h3 {
 
 #contact-title {
   color: #5795ff;
-  text-align: center;
-  height: 15vh;
-  margin-top: 20px; }
+  text-align: center; }
   @media screen and (min-width: 600px) and (max-height: 700px) {
     #contact-title {
       height: auto; } }
