@@ -224,7 +224,7 @@ nav.visible {
 
 .title-container {
   @media screen and (min-width: 600px) and (max-height: 700px){
-    padding: 10vw 0;
+    padding: 10vh 0;
   }
 }
 #work {
@@ -265,6 +265,17 @@ nav.visible {
   justify-content: space-between;
   // align-items: center;
   overflow: scroll;
+
+  @media screen and (min-width: 600px) and (max-height: 700px){
+
+    justify-content: center;
+    overflow: auto;
+  }
+
+  h3 {
+    text-align: center;
+    flex-basis: 100%;
+  }
 }
 .all-projects {
   // height: 48vh;
@@ -275,6 +286,11 @@ nav.visible {
   text-align: center;
   margin-bottom: 15px;
   margin-top: 10px;
+
+  @media screen and (min-width: 600px) and (max-height: 700px){
+    width: 20%;
+    margin: 5px;
+  }
 }
 
 .project-image {
@@ -284,6 +300,10 @@ nav.visible {
 .scroll {
   color: $primary-color;
   padding-top: 5px;
+
+  @media screen and (min-width: 600px) and (max-height: 700px){
+    display: none;
+  }
 }
 
 .project-link {

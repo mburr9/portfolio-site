@@ -225,7 +225,7 @@ nav.visible {
 
 @media screen and (min-width: 600px) and (max-height: 700px) {
   .title-container {
-    padding: 10vw 0; } }
+    padding: 10vh 0; } }
 
 #work {
   display: -webkit-box;
@@ -277,12 +277,26 @@ nav.visible {
       -ms-flex-pack: justify;
           justify-content: space-between;
   overflow: scroll; }
+  @media screen and (min-width: 600px) and (max-height: 700px) {
+    .work-inner {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      overflow: auto; } }
+  .work-inner h3 {
+    text-align: center;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%; }
 
 .single-project {
   width: 49%;
   text-align: center;
   margin-bottom: 15px;
   margin-top: 10px; }
+  @media screen and (min-width: 600px) and (max-height: 700px) {
+    .single-project {
+      width: 20%;
+      margin: 5px; } }
 
 .project-image {
   width: 65%; }
@@ -290,6 +304,9 @@ nav.visible {
 .scroll {
   color: #5795ff;
   padding-top: 5px; }
+  @media screen and (min-width: 600px) and (max-height: 700px) {
+    .scroll {
+      display: none; } }
 
 .project-link {
   text-decoration: none;
