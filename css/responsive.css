@@ -10,8 +10,6 @@
     width: 25vw;
     max-width: 226.66px;
     margin: 0 auto; }
-  .about-name {
-    visibility: hidden; }
   #about-name-inner {
     display: inline;
     text-align: center;
