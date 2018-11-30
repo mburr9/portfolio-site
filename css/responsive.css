@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) and (max-height: 700px) {
+@media screen and (min-width: 600px) and (min-height: 450px) and (max-height: 700px) {
   .pole {
     border: 10px solid #5795ff;
     width: 5px;
@@ -85,8 +85,6 @@
     font-size: 1.5em; }
   #about-link {
     font-size: 1.5em; }
-  .about-name {
-    visibility: hidden; }
   #about-name-inner {
     display: inline;
     text-align: center;
