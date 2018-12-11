@@ -485,6 +485,8 @@ h3 {
 
 .social {
   text-align: center; }
+  .social a {
+    text-decoration: none; }
 
 #github {
   width: 66px;
