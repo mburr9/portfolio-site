@@ -106,14 +106,17 @@ body {
 }
 
 nav {
-  position: absolute;
-  left: -100vw;
-  top: 63px;
-  width: calc(100vw - 17px);
-  // padding-right: 17px;
-  // padding-left: 17px;
-  transition: transform 1s;
-  background-color: $primary-color;
+
+  @media screen and (max-width: 699px) {
+    position: absolute;
+    left: -100vw;
+    top: 63px;
+    width: calc(100vw - 17px);
+    // padding-right: 17px;
+    // padding-left: 17px;
+    transition: transform 1s;
+    background-color: $primary-color;
+  }
 
 
 
