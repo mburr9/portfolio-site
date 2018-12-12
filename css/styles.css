@@ -41,8 +41,13 @@ body {
   top: 0;
   width: 100%; }
 
+.page-content {
+  padding-top: 15vh; }
+  @media screen and (min-width: 600px) and (min-height: 450px) and (max-height: 700px) {
+    .page-content {
+      padding-top: 25vh; } }
+
 #hero {
-  padding-top: 15vh;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -51,9 +56,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  @media screen and (min-width: 600px) and (min-height: 450px) and (max-height: 700px) {
-    #hero {
-      padding-top: 25vh; } }
 
 #header {
   display: -webkit-box;
